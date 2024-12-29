@@ -11,6 +11,7 @@ defined('BASEPATH') or exit('no direct script access allowed');
 
 class UserModel extends CI_Model
 {
+ 
   public function getAllUser()
   {
     $query = $this->db->get('tbluser');

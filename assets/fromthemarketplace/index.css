@@ -151,13 +151,19 @@ main {
 
 .card .details-content .anchor {
 	border-radius: 4px;
+	display: flex;
 	border: 1px solid rgba(128, 128, 128, 0.344);
 	background-color: #2a2a2c;
 }
-.card .details-content .anchor p {
+.card .details-content .anchor:hover {
+	border: 1px solid rgba(255, 255, 255, 0.344);
+	background-color: #2a2a2c85;
+}
+.card .details-content .anchor a {
+	text-decoration: none;
+	flex: 1;
 	border-radius: 4px;
-	padding: 1rem;
-	background-color: #2a2a2c;
+	padding: 1rem;	
 }
 
 .card:hover {

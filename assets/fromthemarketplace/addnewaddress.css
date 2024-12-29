@@ -1,0 +1,118 @@
+.new-address-modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  width: 100%;
+}
+
+.new-address-modal-content {
+  border-radius: 8px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.new-address-title {
+  margin-bottom: 20px;
+  text-align: start;
+}
+
+/* Form styling */
+.new-address-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.new-address-form-group {
+  margin-bottom: 15px;
+}
+
+.new-address-label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.new-address-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.new-address-input,
+.new-address-select {
+  width: 100%;
+  padding: 8px;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.new-address-map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  background: url("/themarketplace/assets/icon/map-placeholder.jpg");
+  margin: 15px 0;
+}
+
+.new-address-add-location {
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  background-color: white;
+  color: #ccc;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.new-address-checkbox-group {
+  display: flex;
+  gap: 10px;
+}
+
+.new-address-checkbox-label {
+  font-size: 14px;
+}
+
+.new-address-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.new-address-cancel-btn,
+.new-address-ok-btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: #f1f1f1;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.new-address-ok-btn {
+  background-color: #266db0;
+  color: white;
+}
+
+.new-address-cancel-btn:hover,
+.new-address-ok-btn:hover {
+  opacity: 0.8;
+}
+
+.new-address-modal {
+  display: none;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.custom-voucher-container {
+}

@@ -1,0 +1,1 @@
+import "/electroMall/assets/fromthemarketplace/js/sidebarHandler.js"
